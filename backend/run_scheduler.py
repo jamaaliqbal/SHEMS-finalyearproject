@@ -12,7 +12,6 @@ def scheduled_task():
    # print("Runnign scheduled device manager")
    # manage_device(
    #    device_id=1,
-   #    api_key="sk_live_QpZULVrsseF1ECqHwOuKt7RB",
    #    product_code="AGILE-24-10-01",
    #    tariff_code="E-1R-AGILE-24-10-01-J")
    print("Running selected devices peak periods")
