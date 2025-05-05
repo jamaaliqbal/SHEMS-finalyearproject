@@ -1,0 +1,59 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "axios": "^1.7.9",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "bootstrap-vue-next": "^0.26.25",
+    "chart.js": "^4.4.7",
+    "core-js": "^3.8.3",
+    "js-cookie": "^3.0.5",
+    "typescript": "^5.7.3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/chart.js": "^2.9.41",
+    "@types/js-cookie": "^3.0.6",
+    "@typescript-eslint/eslint-plugin": "^8.29.0",
+    "@typescript-eslint/parser": "^8.29.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^10.0.0",
+    "vue-eslint-parser": "^10.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
