@@ -11,6 +11,7 @@ import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Input
+from django.conf import settings
 
 import joblib
 
@@ -23,11 +24,11 @@ CORS(app)
 
 # ---- SOLAR PREDICTION MODEL TRAINING --------------------------------- #
 SOLAX_API_URL="https://www.eu.solaxcloud.com:9443/proxy/api/getRealtimeInfo.do"
-SOLAX_API_TOKEN="20250130011415480030080"
+SOLAX_API_TOKEN=settings.SOLAX_API_TOKEN
 SOLAX_WIFI_SNS="SV8RYX9GZU"
 
 
-WEATHER_API_KEY="8b10f77e648b3cf9d783fe0a80307357"
+WEATHER_API_KEY=settings.WEATHER_API_KEY
 WEATHER_API_URL="https://api.openweathermap.org/data/2.5/weather"
 WEATHER_FORECAST_API_URL="https://api.openweathermap.org/data/2.5/forecast"
 LATITUDE = "51.32021"
